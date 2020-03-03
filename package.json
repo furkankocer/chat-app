@@ -7,21 +7,13 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/furkankocer/chat-app.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/furkankocer/chat-app/issues"
-  },
-  "homepage": "https://github.com/furkankocer/chat-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^1.18.7"
   }
 }
